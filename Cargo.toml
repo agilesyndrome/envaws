@@ -1,0 +1,10 @@
+[package]
+name = "envaws"
+version = "0.1.0"
+authors = ["Drew Easley <drew.easley@logikcull.com>"]
+edition = "2018"
+
+[dependencies]
+curl = "0.4.21"
+rusoto_core = "0.38.0"
+rusoto_ec2 = "0.38.0"
